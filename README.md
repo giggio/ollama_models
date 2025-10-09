@@ -1,7 +1,16 @@
 # Prompts for Ollama
 
 A collection of prompts for use with Ollama.
-Compile them with `ollama create <model-name> -f <file>`.
+Compile them with `ollama create <model-name> -f <file>` or use `build.sh`.
+
+They are based on [gemma3:4b-it-qat](https://ollama.com/library/gemma3).
+
+I run them with aliases, like:
+
+```sh
+alias ??='ollama run --keepalive=-1s linus'
+alias ?rs='ollama run --keepalive=-1s furry'
+```
 
 ## Contributing
 
